@@ -1,0 +1,20 @@
+@media screen and (max-width:480px) {
+    .maps {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    
+        .maps iframe {
+            width: 100%;
+            height: 450px;
+        }
+    
+        .mapsDetails {
+            position: absolute;
+            top: 10%;
+            right: 40px;
+            width: 40%;
+            padding: 50px;
+        }
+}

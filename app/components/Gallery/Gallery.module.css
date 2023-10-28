@@ -1,0 +1,31 @@
+.gallery {
+    padding: 50px;
+    display: flex;
+}
+
+.galleryTitle {
+    font-size: 60px;
+    color: #000;
+}
+
+.galleryItem {
+    flex: 1;
+    padding: 50px;
+}
+
+.galleryImg {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.galleryImg:hover {
+    border-radius: 0.45em;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:480px) {
+    .gallery {
+        display: none;
+        width: 10px;
+    }
+}
